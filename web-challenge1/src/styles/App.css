@@ -1,0 +1,101 @@
+#tarefas {
+  max-width: 1160px;
+  margin: 40px auto 0;
+}
+
+#tarefas h2 {
+  font-weight: 500;
+}
+
+#tarefas form {
+  display: flex;
+  margin-top: 10px;
+}
+
+#tarefas form input {
+  flex: 1;
+  height: 30px;
+  font-size: 16px;
+  padding: 0 8px;
+  margin-right: 20px;
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+}
+
+#tarefas form button {
+  background-color: rgb(245, 208, 31);
+  padding: 4px 20px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  transition: 0.3s;
+}
+
+#tarefas form button:hover {
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+}
+
+#tarefas .lista-de-tarefas {
+  list-style: none;
+  margin-top: 20px;
+}
+
+#tarefas .lista-de-tarefas li {
+  width: 100%;
+  border: 1px solid #fff;
+  margin-bottom: 6px;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 1.1rem;
+
+  display: flex;
+  align-items: center;
+}
+
+#tarefas .lista-de-tarefas li span {
+  font-weight: 400;
+  position: relative;
+  display: inline-block;
+}
+
+#tarefas .lista-de-tarefas li span.tarefa-concluida {
+  text-decoration: line-through;
+}
+
+/* Descomente o código abaixo para produzir uma animação ao marcar/desmarcar uma tarefa */
+/* #tarefas .lista-de-tarefas li input + span::before {
+  content: "";
+  position: absolute;
+  background-image: linear-gradient(
+    transparent 0 48%,
+    black 50% calc(50% + 2px),
+    transparent calc(50% + 2px) 100%
+  );
+  width: 0;
+  height: 100%;
+  transition: width 1s linear;
+  display: inline-block;
+}
+
+#tarefas .lista-de-tarefas li input:checked + span::before {
+  width: 100%;
+} */
+
+#tarefas .lista-de-tarefas li input[type="checkbox"] {
+  width: 1rem;
+  height: 1rem;
+
+  margin-right: 10px;
+}
+
+#tarefas .lista-de-tarefas li button {
+  margin-left: auto;
+  font-weight: 600;
+  color: #fff;
+  font-size: 0.7rem;
+  background-color: red;
+  padding: 4px 7px;
+  border-radius: 5px;
+  cursor: pointer;
+}

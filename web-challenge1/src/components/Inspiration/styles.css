@@ -1,0 +1,34 @@
+#inspiration {
+  max-width: 1160px;
+  margin: 40px auto 0;
+}
+
+#inspiration h2 {
+  font-weight: 500;
+}
+
+#inspiration .inspiration-cards {
+  margin-top: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#inspiration .inspiration-cards .card {
+  height: 130px;
+  max-width: 48%;
+  padding: 20px;
+  background-color: #203047;
+  border-radius: 10px;
+  color: #fff;
+}
+
+#inspiration .inspiration-cards .card .card-content {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+#inspiration .inspiration-cards .card .card-citation {
+  font-size: 0.9rem;
+}

@@ -1,0 +1,58 @@
+#header {
+  width: 100%;
+  padding: 10px 0;
+  background-color: rgb(32, 48, 71);
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#header nav {
+  max-width: 1160px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header nav > span {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#header nav > span > span {
+  color: rgb(245, 208, 31);
+}
+
+#header nav ul {
+  list-style: none;
+  display: flex;
+}
+#header nav ul li + li {
+  margin-left: 20px;
+}
+
+#header nav ul li a {
+  color: white;
+}
+
+#header nav .profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header nav .profile img {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+#header nav .profile .name {
+  font-weight: 600;
+}
+
+#header nav .profile .welcome-message {
+  font-size: 11px;
+  color: #ddd;
+}
